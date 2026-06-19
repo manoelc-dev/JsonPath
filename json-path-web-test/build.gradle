@@ -18,7 +18,7 @@ task createBuildInfoFile {
 
 jar {
     dependsOn createBuildInfoFile
-    baseName 'json-path-web-test'
+    archiveBaseName = 'json-path-web-test'
     bnd (
         'Implementation-Title': 'json-path-web-test',
         'Implementation-Version': version,
