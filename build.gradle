@@ -158,5 +158,4 @@ wrapper {
 }
 
 //Task used by Heroku for staging
-task stage(dependsOn: [':json-path-web-test:clean', 'json-path-web-test:jar', 'json-path-web-test:shadowJar']) {}
 
