@@ -45,7 +45,7 @@ ext {
 
             ]
     ]
-    snapshotVersion = true
+    snapshotVersion = false
 }
 
 allprojects {
