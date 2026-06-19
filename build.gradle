@@ -119,10 +119,10 @@ subprojects {
             mavenJava(MavenPublication) {
                 from components.java
 
-                artifactId = jar.baseName
+                artifactId = jar.archiveBaseName.get()
 
                 pom {
-                    name = jar.baseName
+                    name = jar.archiveBaseName.get()
                     description = 'A library to query and verify JSON'
                     url = 'https://github.com/jayway/JsonPath'
 
